@@ -10,3 +10,10 @@ print(student)
 
 for key, value in student.items():
     print(f"{key}:{value}")
+
+def des_studnet(studnet):
+    print("---Studnet profle---")
+    for key, value in student.items():
+         print(f"{key}:{value}")
+
+des_studnet(student)
